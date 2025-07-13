@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Base styles */
 body {
 	font-family: sans-serif;
@@ -92,3 +93,13 @@ h1 {
 	font-weight: 600;
   }
   
+=======
+.highlight {
+	background-color: yellow;
+}
+
+.error {
+	background-color: lightcoral;
+	border-color: red;
+}
+>>>>>>> 11254b0e2a7ddab408ad2bea047e75fcba661f69
