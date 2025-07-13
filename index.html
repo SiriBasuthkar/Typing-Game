@@ -9,19 +9,35 @@
   <h1>Practice Your Typing</h1>
   <p>Click <strong>Start</strong> to begin. Type the quote shown below and click <strong>Submit</strong> when you're done.</p>
 
+    <div class="typing">
+      <button id="start" type="button">Start</button>
+      <br>
+      <br>
+      
+    <div>
+      <textarea type="text" id="typed-value" aria-label="type here" ></textarea>
+      <br>
+    <br>
+      <button id="submitBtn" type="button">Submit</button>
+    </div>
+    <br>
+    
+  </div>
+  <br>
+  <br>
   <p id="quote"></p>
   <p id="message"></p>
-
-  <div>
-    <input type="text" id="typed-value" aria-label="type here" />
-    <button id="submitBtn" type="button">Submit</button>
-  </div>
-
-  <div>
-    <button id="start" type="button">Start</button>
-  </div>
-
+  <br>
+  
+  
+  
   <div id="mistakes"></div>
+
+
+  <div id="best-stats" class="best-stats"></div>
+
+  <button id="resetBtn">Reset Best Scores</button>
+<div id="score-history" class="score-history"></div>
 
   <script src="script.js"></script>
 </body>
